@@ -38,6 +38,8 @@ character-set-server=utf8
 default-storage-engine=INNODB 
 lower_case_table_names=1
 max_allowed_packet=16M
+
+
 进入mysql目录
 cd /usr/local/mysql
 创建data目录，创建后会默认设定一个随机mysql登陆密码SnQytTb>%1;6（每次执行都会不一样）
