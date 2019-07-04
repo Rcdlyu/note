@@ -1,1 +1,12 @@
-
+建立数据库
+CREATE DATABASE 数据库名字
+根据需求建立表（注意标点符号的输入别错误，不然报错修改麻烦）
+CREATE TABLE IF NOT EXISTS '表名'
+`列名1` 数据类型 UNSIGNED AUTO_INCREMENT,
+`列名2` 数据类型 NOT NULL,
+ PRIMARY KEY ( `列名` )  //设置主键
+  )ENGINE=InnoDB DEFAULT CHARSET=utf8;  //修改字符类型为UTF8一般是UTF8
+  USE student_sys;
+  SHOW TABLES;
+  SHOW COLUMNS FROM 表名;
+  查看创建的表和列
