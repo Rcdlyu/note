@@ -160,4 +160,4 @@ insert into user values ('admin++++++++++++++++123456','123456');
 用户：admin 密码：123456
 
 
-参考http://byd.dropsec.xyz/2016/08/02/Mysql注入总结/?tdsourcetag=s_pcqq_aiomsg
+搬运http://byd.dropsec.xyz/2016/08/02/Mysql注入总结/?tdsourcetag=s_pcqq_aiomsg
